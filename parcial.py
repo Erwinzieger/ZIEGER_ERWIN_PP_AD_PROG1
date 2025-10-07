@@ -1,6 +1,6 @@
 # Lista de productos.
 productos = ['Arroz', 'Fideos', 'Aceite', 'Azúcar']
-# Lista de precios. El primer indice de cada una de las listas corresponde a la Tienda 1. Luego con el segundo elemento de cada una de las litas por separado es de la tienda 2 y asi sucesivamente.
+# Lista de precios. El primer indice de cada una de las listas corresponde a la Tienda 1. Luego con el segundo elemento de cada una de las listas por separado es de la tienda 2 y asi sucesivamente.
 precios = [
     [120, 115, 130],  # Arroz
     [80, 85, 78],     # Fideos
@@ -119,4 +119,5 @@ while bandera: # Creamos un bucle infinito hasta que el usuario finalize el prog
 # Opcion 4 del programa
     elif opcion == 4:
         print('\n¡Gracias por utilizar el MENU de Precios! Hasta pronto.\n')
+
         bandera = False # Declaro la bandera que da inicio al While en False para que el programa termine.
